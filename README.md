@@ -1,4 +1,3 @@
-```markdown
 # PromptMule API Demo Suite Walkthrough
 
 Welcome to the PromptMule API Demo Suite! This README offers a comprehensive guide to understanding the registration process and diving deep into the power-packed functionalities of the PromptMule API.
