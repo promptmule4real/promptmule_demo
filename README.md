@@ -91,10 +91,6 @@ With your email verified, log into the platform and secure your unique API Token
 ## Additional Resources
 
 For those who prefer hands-on interaction, the PromptMule API Demo Suite is accessible as a Google Colab notebook via GitHub. Engage directly [here](https://colab.research.google.com/github/promptmule4real/demo/blob/main/promptmule_api_key_gen_demo.ipynb).
-
+www.promptmule.com
 ---
-
 **Happy Exploring with PromptMule!**
-```
-
-You can save the above content as `README.md` in your GitHub repository.
