@@ -1,96 +1,48 @@
-# PromptMule API Demo Suite Walkthrough
+# PromptMule Semantic Cache Reporting Demo
 
-Welcome to the PromptMule API Demo Suite! This README offers a comprehensive guide to understanding the registration process and diving deep into the power-packed functionalities of the PromptMule API.
+Welcome to the interactive demonstration of PromptMule's Semantic Cache Reporting. This comprehensive guide is designed to provide application developers with practical insights into cost-saving strategies during the development and production phases of building generative AI-based applications using the PromptMule platform.
 
-## Table of Contents
+## Overview
 
-- [Prerequisites](#prerequisites)
-- [Registration Walkthrough](#registration-walkthrough)
-- [Overview of the Demo Suite](#overview-of-the-demo-suite)
-- [Additional Resources](#additional-resources)
+This demonstration, available as a Google Colab notebook, illustrates the process of interacting with the PromptMule API. It provides a hands-on experience of authenticating, generating prompts, sending requests, and analyzing the performance of semantic caching to optimize costs and resource usage.
+
+## Getting Started
+
+You can access and interact with the demonstration by visiting the Google Colab notebook through the following link:
+
+🔗 [PromptMule Reporting Demo on Google Colab](https://colab.research.google.com/github/promptmule4real/promptmule_demo/blob/main/promptmule_reporting_demo.ipynb)
+
+Follow the steps within the notebook for a step-by-step guide through the functionalities and features offered by the PromptMule API.
 
 ## Prerequisites
 
-Start your journey by initializing the necessary libraries and endpoints:
+- Basic knowledge of Python programming.
+- Familiarity with RESTful APIs and JSON structures.
+- An account with PromptMule, complete with the necessary credentials (username, password, etc.).
 
-```python
-# Essential imports for the demo
-import os
-import requests
-import json
-import textwrap
+## Features of the Demo
 
-# Setting up the API endpoints for easy reference
-ENDPOINT = 'https://api.promptmule.com/'
-REGISTRATION = 'signup'   # Endpoint for developer registration
-LOGIN = 'login'           # Endpoint to obtain a Token
-KEY_GEN = 'api-keys'      # Endpoint to generate an API Key
-PROMPT = 'prompt'         # Main endpoint for prompt caching
-LIST_API_KEYS = 'api-keys/'  # Endpoint to list all registered API keys and their app names
-DELETE = 'profile/'       # Endpoint to delete a username - use with caution!
-```
+The Google Colab notebook covers:
 
-## Registration Walkthrough
+1. **User Authentication**: Demonstrates how to log in to PromptMule and handle authentication tokens securely.
+2. **API Key Management**: Outlines the process for generating or retrieving API keys specific to your applications.
+3. **Interactive Prompt Generation**: Showcases the creation and use of dynamic prompts for testing and demonstration purposes.
+4. **Semantic Cache Utilization**: Analyzes and reports the performance of semantic caching, emphasizing its cost-saving aspects.
+5. **Results and Reporting**: Offers a detailed summary and insights into the semantic caching performance, promoting efficient resource utilization.
 
-### 1. Set Up Your Registration Data
+## Learn More
 
-Personalize the demo by inputting your details. Ensure validity for seamless operations:
+For additional information regarding the PromptMule API and its features, please refer to the official documentation and resources:
 
-```python
-# Input your registration details here
-your_new_username = "YOUR_NEW_USERNAME"
-your_new_password = "YOUR_NEW_PASSWORD"
-your_real_email = "YOUR_REAL_EMAIL"
-your_new_appname = "YOUR_NEW_APPS_NAME"
-```
+- [PromptMule API Documentation](https://promptmule.com/docs) - Detailed API documentation containing technical guidelines and references.
+- [PromptMule Website](https://promptmule.com) - Explore more about PromptMule and its innovative solutions for AI application development.
 
-### 2. Construct the Registration API Call
+## Contributions and Support
 
-Next, organize the data for the registration API call and execute the request. For those accustomed to `curl`, here's the equivalent command:
+This demo was brought to you by the team at PromptMule, dedicated to empowering developers in the realm of AI. If you have questions, suggestions, or need assistance, please reach out through the channels provided on the PromptMule website.
 
-```bash
-curl -X POST "https://api.promptmule.com/signup" \
-     -H "Content-Type: application/json" \
-     -d '{"username": "YOUR_NEW_USERNAME", "password": "YOUR_NEW_PASSWORD", "email": "YOUR_REAL_EMAIL"}'
-```
+We encourage community feedback and contributions. If you wish to contribute, please follow the standard GitHub workflow for pull requests.
 
-Make sure to replace the placeholders with your details.
-
-### 3. Email Verification
-
-Once registered, you'll receive an email from PromptMule. Verify your email by clicking the embedded link.
-
-### 4. Token Generation
-
-With your email verified, log into the platform and secure your unique API Token.
-
-## Overview of the Demo Suite
-
-**Introduction**: The PromptMule API Demo Suite equips you to enrich your interaction with the PromptMule API. Send prompts, evaluate responses, and gauge cache effectiveness.
-
-### Features:
-
-- **Authenticate**: Connect seamlessly with the API.
-- **API Key Management**: Generate or retrieve your unique key.
-- **Dispatch Prompts**: Relay diverse prompts with tailored response settings.
-- **Monitor**: Opt for a verbose mode to view detailed logs.
-- **Comprehensive Reports**: Avail insights on prompt behavior and cache efficiency.
-
-### How to Use:
-
-1. **Begin**: Activate the script.
-2. **Enter Credentials**: Key in your username, password, and application name.
-3. **Verbose Mode**: Choose between detailed logs or a concise output.
-4. **Cost-saving Strategy**: Input your strategy for the test prompts.
-5. **Analyze Reports**: Post operations, obtain:
-    - In-depth prompt feedback.
-    - A usage overview.
-    - A cache savings summary.
-6. **Optional Profile Deletion**: Exercise caution, irreversible once done.
-
-## Additional Resources
-
-For those who prefer hands-on interaction, the PromptMule API Demo Suite is accessible as a Google Colab notebook via GitHub. Engage directly [here](https://colab.research.google.com/github/promptmule4real/demo/blob/main/promptmule_api_key_gen_demo.ipynb).
-www.promptmule.com
 ---
-**Happy Exploring with PromptMule!**
+
+Thank you for exploring this demonstration. We're excited to see the innovative solutions you'll build with PromptMule!
