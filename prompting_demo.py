@@ -43,7 +43,7 @@ class PromptMuleClient:
             return None, None, False, time.time() - start_time, None
 
 # Example usage
-api_key = "6VDD3H6B4Y8Aftlnm7n069JvRIkaucmOIj1YyE69"
+api_key = "YOUR_API_KEY"
 prompt_mule_client = PromptMuleClient(api_key)
 
 prompt = "In spanish, explain how an API Cache-as-a-service enhances generative ai application development."
